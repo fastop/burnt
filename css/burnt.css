@@ -20,7 +20,7 @@
   position: absolute;
 }
 
-@-webkit-keyframes move {
+@keyframes move {
   0% {
     -webkit-transform-origin: bottom left;
     -moz-transform-origin: bottom left;

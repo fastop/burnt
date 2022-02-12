@@ -7,12 +7,40 @@
     <title>BURNT</title>
 
     <link rel="stylesheet" href="css/burnt.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+
+        let IMAGE_LIST = [];
+         
+         $(function(){
+
+            $("#btnNext").click(function() {
+
+                console.log("AWUEBO");
+
+                $(".image-wrap img").attr("src","https://i.picsum.photos/id/331/900/700.jpg?hmac=YBHRgxR_Rqdiag7_mMoA3ZczIZHWrNygVpvgIRxZwsA");
+               
+            });
+         });
+
+
+
+
+    </script>
 
 </head>
-<body>
+<body>   
 
     <div class="image-wrap">
         <img src="https://unsplash.it/900/700">
+    </div>
+
+
+    <div>
+        <button id="btnNext"> >> </button>
+        <button> >> </button>
+        <button> >> </button>
     </div>
     
 </body>
