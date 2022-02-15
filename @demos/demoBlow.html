@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>  DEMO NEW </title>
+
+
+    <script>
+
+
+
+        function sample() {
+            var myWindow = window.open("", "emptyWindow", "width=250,height=200");
+                myWindow.document.write("<p>you have entered into a new window with empty URL</p>");
+
+                myWindow.document.write("  <button onclick='parent.DDD()'>Click here</button> ");
+
+                myWindow.opener.document.write("<p>Original Window</p>");
+        }
+
+        function DDD()
+        {
+            alert("XXXXY");
+        }
+
+
+    </script>
+
+</head>
+<body>
+
+    <button onclick="sample()">Click here</button>
+
+
+
+
+
+    
+</body>
+</html>
